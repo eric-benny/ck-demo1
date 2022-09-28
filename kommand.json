@@ -13,9 +13,6 @@
                 }
             }
         },
-        "tutorial_table": {
-            "type": "@dynamodb.table"
-        },
         "tutorial_api": {
             "type": "@apigateway.api",
             "resources": {
