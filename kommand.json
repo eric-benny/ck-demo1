@@ -42,7 +42,7 @@
                         "dynamodb:PutItem",
                         "dynamodb:UpdateItem"
                     ],
-                    "Resource": ""
+                    "Resource": "*"
                 }]
             }
         }
