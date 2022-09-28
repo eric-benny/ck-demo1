@@ -29,7 +29,7 @@
         "tutorial_lambda": {
             "type": "@lambda.function",
             "description": "CloudKommand Tutorial Lambda",
-            "timeout": 10,
+            "timeout": 20,
             "policies": ["@tutorial_policy"],
             "environment_variables": {
                 "table_name": "@tutorial_table:props.name"
